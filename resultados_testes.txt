@@ -1,0 +1,205 @@
+================================================================
+TESTE 1 — teste_p3.pas (CORRETO)
+================================================================
+--- Iniciando Analise Sintatica de 'testes/teste_p3.pas' ---
+<programa> ::= program <identificador>; <bloco>.
+<bloco> ::= <parte de declarações de variáveis> <comando composto>
+<parte de declarações de variáveis> ::= var <declaração de variáveis> {; <declaração de variáveis>};
+<declaração de variáveis> ::= <lista de identificadores>: <tipo>
+<lista de identificadores> ::= <identificador> {, <identificador>}
+<tipo> ::= integer
+<comando composto> ::= begin <comando> { ; <comando> } end
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<comando condicional> ::= if <expressao> then <comando> [ else <comando> ]
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<comando repetitivo> ::= while <expressao> do <comando>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+
+>>> Analise Sintatica concluida com SUCESSO! <<<
+
+--- Iniciando Constant Folding ---
+>>> Constant Folding concluido! <<<
+
+--- Iniciando Analise Semantica de 'testes/teste_p3.pas' ---
+>>> Analise Semantica concluida com SUCESSO! <<<
+
+================================================================
+TESTE 2 — teste_p4.pas (CORRETO)
+================================================================
+--- Iniciando Analise Sintatica de 'testes/teste_p4.pas' ---
+<programa> ::= program <identificador>; <bloco>.
+<bloco> ::= <parte de declarações de variáveis> <comando composto>
+<parte de declarações de variáveis> ::= var <declaração de variáveis> {; <declaração de variáveis>};
+<declaração de variáveis> ::= <lista de identificadores>: <tipo>
+<lista de identificadores> ::= <identificador> {, <identificador>}
+<tipo> ::= integer
+<declaração de variáveis> ::= <lista de identificadores>: <tipo>
+<lista de identificadores> ::= <identificador> {, <identificador>}
+<tipo> ::= integer
+<comando composto> ::= begin <comando> { ; <comando> } end
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<comando condicional> ::= if <expressao> then <comando> [ else <comando> ]
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<relacao> ::= = | <> | < | <= | > | >=
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<comando condicional> ::= if <expressao> then <comando> [ else <comando> ]
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<relacao> ::= = | <> | < | <= | > | >=
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<comando condicional> ::= if <expressao> then <comando> [ else <comando> ]
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<relacao> ::= = | <> | < | <= | > | >=
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<comando condicional> ::= if <expressao> then <comando> [ else <comando> ]
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<relacao> ::= = | <> | < | <= | > | >=
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<comando condicional> ::= if <expressao> then <comando> [ else <comando> ]
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<relacao> ::= = | <> | < | <= | > | >=
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<comando condicional> ::= if <expressao> then <comando> [ else <comando> ]
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<relacao> ::= = | <> | < | <= | > | >=
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<comando condicional> ::= if <expressao> then <comando> [ else <comando> ]
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<relacao> ::= = | <> | < | <= | > | >=
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<comando repetitivo> ::= while <expressao> do <comando>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<relacao> ::= = | <> | < | <= | > | >=
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+
+>>> Analise Sintatica concluida com SUCESSO! <<<
+
+--- Iniciando Constant Folding ---
+>>> Constant Folding concluido! <<<
+
+--- Iniciando Analise Semantica de 'testes/teste_p4.pas' ---
+>>> Analise Semantica concluida com SUCESSO! <<<
+
+================================================================
+TESTE 3 — teste_correto_completo.pas (CORRETO)
+================================================================
+--- Iniciando Analise Sintatica de 'testes/teste_correto_completo.pas' ---
+<programa> ::= program <identificador>; <bloco>.
+<bloco> ::= <parte de declarações de variáveis> <comando composto>
+<parte de declarações de variáveis> ::= var <declaração de variáveis> {; <declaração de variáveis>};
+<declaração de variáveis> ::= <lista de identificadores>: <tipo>
+<lista de identificadores> ::= <identificador> {, <identificador>}
+<tipo> ::= integer
+<declaração de variáveis> ::= <lista de identificadores>: <tipo>
+<lista de identificadores> ::= <identificador> {, <identificador>}
+<tipo> ::= integer
+<declaração de variáveis> ::= <lista de identificadores>: <tipo>
+<lista de identificadores> ::= <identificador> {, <identificador>}
+<tipo> ::= integer
+<comando composto> ::= begin <comando> { ; <comando> } end
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<comando condicional> ::= if <expressao> then <comando> [ else <comando> ]
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<relacao> ::= = | <> | < | <= | > | >=
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<comando condicional> ::= if <expressao> then <comando> [ else <comando> ]
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<relacao> ::= = | <> | < | <= | > | >=
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<comando condicional> ::= if <expressao> then <comando> [ else <comando> ]
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<relacao> ::= = | <> | < | <= | > | >=
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<comando repetitivo> ::= while <expressao> do <comando>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<relacao> ::= = | <> | < | <= | > | >=
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+
+>>> Analise Sintatica concluida com SUCESSO! <<<
+
+--- Iniciando Constant Folding ---
+>>> Constant Folding concluido! <<<
+
+--- Iniciando Analise Semantica de 'testes/teste_correto_completo.pas' ---
+>>> Analise Semantica concluida com SUCESSO! <<<
+
+================================================================
+TESTE 4 — erro_token_inesperado.pas (ERRO SINTATICO)
+================================================================
+--- Iniciando Analise Sintatica de 'testes/erro_token_inesperado.pas' ---
+<programa> ::= program <identificador>; <bloco>.
+<bloco> ::= <parte de declarações de variáveis> <comando composto>
+<parte de declarações de variáveis> ::= var <declaração de variáveis> {; <declaração de variáveis>};
+<declaração de variáveis> ::= <lista de identificadores>: <tipo>
+<lista de identificadores> ::= <identificador> {, <identificador>}
+<tipo> ::= integer
+<comando composto> ::= begin <comando> { ; <comando> } end
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+5:token nao esperado [*].
+Codigo de saida: 1
+
+================================================================
+TESTE 5 — erro_fim_arquivo.pas (ERRO SINTATICO)
+================================================================
+--- Iniciando Analise Sintatica de 'testes/erro_fim_arquivo.pas' ---
+<programa> ::= program <identificador>; <bloco>.
+<bloco> ::= <parte de declarações de variáveis> <comando composto>
+<parte de declarações de variáveis> ::= var <declaração de variáveis> {; <declaração de variáveis>};
+<declaração de variáveis> ::= <lista de identificadores>: <tipo>
+<lista de identificadores> ::= <identificador> {, <identificador>}
+<tipo> ::= integer
+<comando composto> ::= begin <comando> { ; <comando> } end
+<atribuicao> ::= <variavel> := <expressao>
+<expressao> ::= <expressaoSimples> [ <relacao> <expressaoSimples> ]
+6:fim de arquivo nao esperado.
+Codigo de saida: 1
+
+================================================================
+TESTE 6 — erro_falta_dois_pontos.pas (ERRO SINTATICO)
+================================================================
+--- Iniciando Analise Sintatica de 'testes/erro_falta_dois_pontos.pas' ---
+<programa> ::= program <identificador>; <bloco>.
+<bloco> ::= <parte de declarações de variáveis> <comando composto>
+<parte de declarações de variáveis> ::= var <declaração de variáveis> {; <declaração de variáveis>};
+<declaração de variáveis> ::= <lista de identificadores>: <tipo>
+<lista de identificadores> ::= <identificador> {, <identificador>}
+3:token nao esperado [integer].
+Codigo de saida: 1
